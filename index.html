@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EloAbroad | Premium Pathway to Global Careers</title>
+    <title>EloAbroad - Premium Pathway to Global Careers</title>
     <meta name="description" content="Your premium pathway to visa-sponsored careers abroad. EloAbroad provides end-to-end relocation support with guaranteed placements.">
     
     <!-- Preload critical resources -->
@@ -349,7 +349,7 @@
                     FAQ
                     <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
-                <a href="#apply" class="btn-primary ml-4">
+                <a href="#application-form" class="btn-primary ml-4">
                     Begin Application <i class="fas fa-arrow-right ml-2"></i>
                 </a>
             </nav>
@@ -369,7 +369,7 @@
                 <a href="#pricing" class="block py-3 text-gray-600 hover:text-primary-600 border-b border-gray-100 transition">Pricing</a>
                 <a href="#success-stories" class="block py-3 text-gray-600 hover:text-primary-600 border-b border-gray-100 transition">Success Stories</a>
                 <a href="#faq" class="block py-3 text-gray-600 hover:text-primary-600 border-b border-gray-100 transition">FAQ</a>
-                <a href="#apply" class="block mt-4 btn-primary w-full text-center">
+                <a href="#application-form" class="block mt-4 btn-primary w-full text-center">
                     Begin Application
                 </a>
             </div>
@@ -399,7 +399,7 @@
                             EloAbroad is your high-trust career concierge for visa-sponsored jobs abroad. End-to-end relocation support with guaranteed placements.
                         </p>
                         <div class="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4">
-                            <a href="#apply" class="btn-primary animate-pulse-slow">
+                            <a href="#application-form" class="btn-primary animate-pulse-slow">
                                 Begin Application <i class="fas fa-arrow-right ml-2"></i>
                             </a>
                             <a href="#how-it-works" class="btn-secondary">
@@ -478,13 +478,14 @@
                 <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-up">
                     <div class="aspect-w-16 aspect-h-9 bg-gray-300 relative">
                         <div class="absolute inset-0 flex items-center justify-center">
-                            <button class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center text-white shadow-lg transform transition hover:scale-110">
+                            <button id="play-button" class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center text-white shadow-lg transform transition hover:scale-110">
                                 <i class="fas fa-play text-2xl"></i>
                             </button>
                         </div>
                         <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
                              alt="Video thumbnail" 
-                             class="w-full h-full object-cover">
+                             class="w-full h-full object-cover" id="video-thumbnail">
+                        <iframe id="video-iframe" class="hidden w-full h-full" src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="p-6 md:p-8">
                         <h3 class="text-2xl font-bold text-dark-950 mb-2">The EloAbroad Difference</h3>
@@ -634,6 +635,9 @@
                                 <span>Eligibility assessment</span>
                             </li>
                             <li class="flex items-center">
+                                <i class="fas fa-check-circle text-primary-600 mr-2
+                            </li>
+                            <li class="flex items-center">
                                 <i class="fas fa-check-circle text-primary-600 mr-2"></i>
                                 <span>Dedicated advisor</span>
                             </li>
@@ -642,8 +646,8 @@
                                 <span>Career matching</span>
                             </li>
                         </ul>
-                        <a href="#apply" class="btn-primary w-full text-center">
-                            Begin Stage 1
+                        <a href="#application-form" class="btn-secondary w-full text-center">
+                            Get Started
                         </a>
                     </div>
                     
@@ -652,7 +656,7 @@
                         <h3 class="text-xl font-bold mb-2">Stage 2</h3>
                         <p class="text-gray-600 mb-4">Interview & Certification</p>
                         <div class="mb-6">
-                            <span class="text-3xl font-bold text-primary-600">$750</span>
+                            <span class="text-3xl font-bold text-primary-600">$250</span>
                             <span class="text-gray-500">one-time</span>
                         </div>
                         <ul class="space-y-3 mb-6">
@@ -669,9 +673,9 @@
                                 <span>Job matching</span>
                             </li>
                         </ul>
-                        <div class="text-center text-sm text-gray-500">
-                            Available after Stage 1 completion
-                        </div>
+                        <a href="#application-form" class="btn-secondary w-full text-center">
+                            Get Started
+                        </a>
                     </div>
                     
                     <!-- Stage 3 -->
@@ -679,7 +683,7 @@
                         <h3 class="text-xl font-bold mb-2">Stage 3</h3>
                         <p class="text-gray-600 mb-4">Job Offer + Visa</p>
                         <div class="mb-6">
-                            <span class="text-3xl font-bold text-primary-600">$1,000</span>
+                            <span class="text-3xl font-bold text-primary-600">$500</span>
                             <span class="text-gray-500">one-time</span>
                         </div>
                         <ul class="space-y-3 mb-6">
@@ -696,9 +700,9 @@
                                 <span>Embassy support</span>
                             </li>
                         </ul>
-                        <div class="text-center text-sm text-gray-500">
-                            Available after Stage 2 completion
-                        </div>
+                        <a href="#application-form" class="btn-primary w-full text-center">
+                            Get Started
+                        </a>
                     </div>
                     
                     <!-- Stage 4 -->
@@ -706,8 +710,8 @@
                         <h3 class="text-xl font-bold mb-2">Stage 4</h3>
                         <p class="text-gray-600 mb-4">Relocation</p>
                         <div class="mb-6">
-                            <span class="text-3xl font-bold text-primary-600">$1,150+</span>
-                            <span class="text-gray-500">varies by destination</span>
+                            <span class="text-3xl font-bold text-primary-600">$250</span>
+                            <span class="text-gray-500">one-time</span>
                         </div>
                         <ul class="space-y-3 mb-6">
                             <li class="flex items-center">
@@ -723,204 +727,214 @@
                                 <span>Cultural orientation</span>
                             </li>
                         </ul>
-                        <div class="text-center text-sm text-gray-500">
-                            Available after Stage 3 completion
-                        </div>
+                        <a href="#application-form" class="btn-secondary w-full text-center">
+                            Get Started
+                        </a>
                     </div>
                 </div>
                 
-                <div class="mt-12 text-center" data-aos="fade-up">
-                    <div class="inline-flex items-center px-6 py-3 bg-primary-100 rounded-full">
-                        <i class="fas fa-calculator text-primary-600 mr-2"></i>
-                        <span class="font-medium">Total Investment: <span class="text-primary-600 font-bold">$3,000–$4,000</span> (vs. $10,000+ with agencies)</span>
+                <div class="mt-12 bg-white p-8 rounded-2xl shadow-lg border border-primary-100 max-w-4xl mx-auto" data-aos="fade-up">
+                    <div class="flex flex-col md:flex-row items-center">
+                        <div class="md:w-2/3 mb-6 md:mb-0">
+                            <h3 class="text-xl font-bold mb-2">Complete Package</h3>
+                            <p class="text-gray-600">Save $200 when you commit to all four stages upfront</p>
+                        </div>
+                        <div class="md:w-1/3 text-center md:text-right">
+                            <div class="mb-2">
+                                <span class="text-3xl font-bold text-primary-600">$900</span>
+                                <span class="text-gray-500">total</span>
+                            </div>
+                            <a href="#application-form" class="btn-primary inline-block">
+                                Get Full Package
+                            </a>
+                        </div>
                     </div>
-                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Payment plans available. Only pay for each stage as you progress through the program.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Job Opportunities Section -->
+        <!-- Jobs Section -->
         <section id="jobs" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16" data-aos="fade-up">
-                    <span class="inline-block px-4 py-1 bg-primary-100 text-primary-600 rounded-full font-medium mb-3">Programs</span>
-                    <h2 class="text-3xl md:text-4xl font-bold text-dark-950 mb-4">Premium Career Pathways <span class="text-primary-600">With Visa Sponsorship</span></h2>
-                    <p class="text-gray-600 max-w-2xl mx-auto">We specialize in placing candidates in these high-demand global careers.</p>
+                    <span class="inline-block px-4 py-1 bg-primary-100 text-primary-600 rounded-full font-medium mb-3">Opportunities</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-dark-950 mb-4">Current <span class="text-primary-600">Visa-Sponsored</span> Programs</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Browse our current openings with visa sponsorship in top destinations worldwide.</p>
                 </div>
                 
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Caregiver -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Job 1 -->
                     <div class="job-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="text-primary-600 mb-4">
-                            <i class="fas fa-hands-helping text-4xl"></i>
-                        </div>
-                        <h4 class="font-bold text-xl mb-2">Certified Caregiver</h4>
-                        <p class="text-gray-600 mb-4">Provide compassionate care for elderly patients in modern healthcare facilities across Europe and North America.</p>
-                        <div class="space-y-2 mb-4">
-                            <div class="flex items-center text-sm text-gray-500">
-                                <i class="fas fa-euro-sign mr-2 text-primary-600"></i>
-                                <span>€2,200–€3,500/month + benefits</span>
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <span class="country-flag" style="background-image: url('https://flagcdn.com/us.svg');"></span>
+                                <span class="text-sm text-gray-500">United States</span>
                             </div>
-                            <div class="flex items-center text-sm text-gray-500">
-                                <i class="fas fa-home mr-2 text-primary-600"></i>
-                                <span>Housing often provided</span>
-                            </div>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">Hiring Now</span>
                         </div>
-                        <div class="mt-4 pt-4 border-t border-gray-200">
-                            <a href="#apply" class="text-sm bg-primary-600 hover:bg-primary-700 text-white px-3 py-2 rounded transition block text-center">
-                                Apply Now
-                            </a>
+                        <h3 class="text-xl font-bold mb-2">English Teacher</h3>
+                        <p class="text-gray-600 mb-4">Teach English at private schools across the US with full visa sponsorship and benefits.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">TEFL Certification</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">$3,000+/month</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">Housing Stipend</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="text-sm text-gray-500">Processing Time:</span>
+                                <span class="font-medium">6-8 weeks</span>
+                            </div>
+                            <a href="#application-form" class="text-primary-600 font-medium hover:underline">Apply Now</a>
                         </div>
                     </div>
                     
-                    <!-- TEFL Teacher -->
+                    <!-- Job 2 -->
                     <div class="job-card" data-aos="fade-up" data-aos-delay="150">
-                        <div class="text-primary-600 mb-4">
-                            <i class="fas fa-chalkboard-teacher text-4xl"></i>
-                        </div>
-                        <h4 class="font-bold text-xl mb-2">English Teacher (TEFL)</h4>
-                        <p class="text-gray-600 mb-4">Teach English abroad with our accredited certification and guaranteed placement at reputable schools.</p>
-                        <div class="space-y-2 mb-4">
-                            <div class="flex items-center text-sm text-gray-500">
-                                <i class="fas fa-dollar-sign mr-2 text-primary-600"></i>
-                                <span>$1,500–$3,000/month + housing</span>
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <span class="country-flag" style="background-image: url('https://flagcdn.com/ca.svg');"></span>
+                                <span class="text-sm text-gray-500">Canada</span>
                             </div>
-                            <div class="flex items-center text-sm text-gray-500">
-                                <i class="fas fa-plane mr-2 text-primary-600"></i>
-                                <span>Flight reimbursement available</span>
-                            </div>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">Hiring Now</span>
                         </div>
-                        <div class="mt-4 pt-4 border-t border-gray-200">
-                            <a href="#apply" class="text-sm bg-primary-600 hover:bg-primary-700 text-white px-3 py-2 rounded transition block text-center">
-                                Apply Now
-                            </a>
+                        <h3 class="text-xl font-bold mb-2">Caregiver</h3>
+                        <p class="text-gray-600 mb-4">Provide compassionate care to seniors with a direct pathway to permanent residency.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">Training Provided</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">$2,800+/month</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">PR Pathway</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="text-sm text-gray-500">Processing Time:</span>
+                                <span class="font-medium">4-6 weeks</span>
+                            </div>
+                            <a href="#application-form" class="text-primary-600 font-medium hover:underline">Apply Now</a>
                         </div>
                     </div>
                     
-                    <!-- Hospitality -->
+                    <!-- Job 3 -->
                     <div class="job-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="text-primary-600 mb-4">
-                            <i class="fas fa-concierge-bell text-4xl"></i>
-                        </div>
-                        <h4 class="font-bold text-xl mb-2">Hospitality Professional</h4>
-                        <p class="text-gray-600 mb-4">Work in luxury hotels, resorts, and cruise ships worldwide with full visa sponsorship.</p>
-                        <div class="space-y-2 mb-4">
-                            <div class="flex items-center text-sm text-gray-500">
-                                <i class="fas fa-euro-sign mr-2 text-primary-600"></i>
-                                <span>€1,800–€3,200/month + tips</span>
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <span class="country-flag" style="background-image: url('https://flagcdn.com/au.svg');"></span>
+                                <span class="text-sm text-gray-500">Australia</span>
                             </div>
-                            <div class="flex items-center text-sm text-gray-500">
-                                <i class="fas fa-utensils mr-2 text-primary-600"></i>
-                                <span>Meals & accommodation included</span>
-                            </div>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">Limited Spots</span>
                         </div>
-                        <div class="mt-4 pt-4 border-t border-gray-200">
-                            <a href="#apply" class="text-sm bg-primary-600 hover:bg-primary-700 text-white px-3 py-2 rounded transition block text-center">
-                                Apply Now
-                            </a>
+                        <h3 class="text-xl font-bold mb-2">Hospitality Staff</h3>
+                        <p class="text-gray-600 mb-4">Work at luxury resorts with visa sponsorship and opportunities for career growth.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">No Experience Needed</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">$3,500+/month</span>
+                            <span class="px-2 py-1 bg-primary-100 text-primary-600 text-xs rounded">Accommodation</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <span class="text-sm text-gray-500">Processing Time:</span>
+                                <span class="font-medium">8-10 weeks</span>
+                            </div>
+                            <a href="#application-form" class="text-primary-600 font-medium hover:underline">Apply Now</a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="mt-12 text-center" data-aos="fade-up">
-                    <a href="#apply" class="btn-primary inline-flex items-center">
-                        See All Career Pathways <i class="fas fa-chevron-right ml-2"></i>
+                    <a href="#application-form" class="btn-primary inline-block">
+                        View All Programs <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
             </div>
         </section>
 
         <!-- Success Stories Section -->
-        <section id="success-stories" class="py-20 bg-primary-900 text-white">
+        <section id="success-stories" class="py-20 bg-gray-50">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16" data-aos="fade-up">
-                    <span class="inline-block px-4 py-1 bg-white/20 backdrop-blur-sm rounded-full font-medium mb-3">Testimonials</span>
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Transformations <span class="text-secondary-400">Powered by EloAbroad</span></h2>
-                    <p class="text-gray-300 max-w-2xl mx-auto">Don't take our word for it. Hear from professionals who've built new lives abroad through our program.</p>
+                    <span class="inline-block px-4 py-1 bg-primary-100 text-primary-600 rounded-full font-medium mb-3">Testimonials</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-dark-950 mb-4">Real <span class="text-primary-600">Success Stories</span></h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Hear from people who transformed their lives through our visa-sponsored programs.</p>
                 </div>
                 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Testimonial 1 -->
                     <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="flex items-center mb-4">
-                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Maria" class="w-12 h-12 rounded-full border-2 border-secondary-500">
-                            <div class="ml-4">
-                                <h4 class="font-bold">Maria S.</h4>
-                                <div class="flex items-center text-sm text-secondary-400">
-                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/w40/de.png')"></span> Germany
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Maria" class="w-12 h-12 rounded-full border-2 border-white mr-4">
+                            <div>
+                                <h4 class="font-bold text-white">Maria S.</h4>
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/us.svg');"></span>
+                                    <span class="text-sm text-gray-300">English Teacher in USA</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex mb-2 text-yellow-400">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p class="text-gray-300 mb-4">
-                            "The step-by-step process gave me confidence at each stage. My advisor helped negotiate a salary 20% higher than I expected. Now I earn €3,200/month with free housing in Berlin!"
-                        </p>
-                        <div class="text-sm text-gray-400">
-                            <i class="fas fa-briefcase mr-1"></i> Certified Caregiver • Placed May 2023
+                        <p class="text-gray-300 mb-4">"EloAbroad made my American dream come true! From interview preparation to visa processing, everything was handled professionally. I've been teaching in California for 8 months now with full benefits."</p>
+                        <div class="flex items-center">
+                            <div class="flex text-yellow-400 mr-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="text-sm text-white">6 months ago</span>
                         </div>
                     </div>
                     
                     <!-- Testimonial 2 -->
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="150">
                         <div class="flex items-center mb-4">
-                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="James" class="w-12 h-12 rounded-full border-2 border-secondary-500">
-                            <div class="ml-4">
-                                <h4 class="font-bold">James T.</h4>
-                                <div class="flex items-center text-sm text-secondary-400">
-                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/w40/vn.png')"></span> Vietnam
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="James" class="w-12 h-12 rounded-full border-2 border-white mr-4">
+                            <div>
+                                <h4 class="font-bold text-white">James O.</h4>
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/ca.svg');"></span>
+                                    <span class="text-sm text-gray-300">Caregiver in Canada</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex mb-2 text-yellow-400">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p class="text-gray-300 mb-4">
-                            "The interview preparation was invaluable - I received 3 job offers! My school in Hanoi paid for my flight and provides a housing allowance. I'm saving $1,500/month while traveling Asia."
-                        </p>
-                        <div class="text-sm text-gray-400">
-                            <i class="fas fa-chalkboard mr-1"></i> English Teacher • Placed Feb 2023
+                        <p class="text-gray-300 mb-4">"I was skeptical at first, but EloAbroad delivered exactly what they promised. I'm now working in Toronto with a clear path to permanent residency. The free caregiver training was incredibly helpful."</p>
+                        <div class="flex items-center">
+                            <div class="flex text-yellow-400 mr-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="text-sm text-white">3 months ago</span>
                         </div>
                     </div>
                     
                     <!-- Testimonial 3 -->
-                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="flex items-center mb-4">
-                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Aisha" class="w-12 h-12 rounded-full border-2 border-secondary-500">
-                            <div class="ml-4">
-                                <h4 class="font-bold">Aisha M.</h4>
-                                <div class="flex items-center text-sm text-secondary-400">
-                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/w40/ae.png')"></span> UAE
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Aisha" class="w-12 h-12 rounded-full border-2 border-white mr-4">
+                            <div>
+                                <h4 class="font-bold text-white">Aisha M.</h4>
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/au.svg');"></span>
+                                    <span class="text-sm text-gray-300">Hospitality Staff in Australia</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex mb-2 text-yellow-400">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <p class="text-gray-300 mb-4">
-                            "Working at a 5-star Dubai hotel was my dream. EloAbroad's visa specialists handled everything - I just showed up at the embassy. Tax-free income and career growth I couldn't find back home."
-                        </p>
-                        <div class="text-sm text-gray-400">
-                            <i class="fas fa-hotel mr-1"></i> Hospitality Supervisor • Placed Nov 2022
+                        <p class="text-gray-300 mb-4">"The relocation support was exceptional - they helped with everything from flights to finding accommodation. I'm loving my new life in Sydney and the career opportunities here are amazing!"</p>
+                        <div class="flex items-center">
+                            <div class="flex text-yellow-400 mr-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="text-sm text-white">1 month ago</span>
                         </div>
                     </div>
                 </div>
                 
                 <div class="mt-12 text-center" data-aos="fade-up">
-                    <a href="#" class="btn-secondary inline-flex items-center">
+                    <a href="#" class="inline-flex items-center text-white font-medium hover:underline">
                         <i class="fas fa-play-circle mr-2"></i> Watch More Success Stories
                     </a>
                 </div>
@@ -928,147 +942,64 @@
         </section>
 
         <!-- Comparison Section -->
-        <section class="py-20 bg-gray-50">
+        <section class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16" data-aos="fade-up">
                     <span class="inline-block px-4 py-1 bg-primary-100 text-primary-600 rounded-full font-medium mb-3">Why Choose Us</span>
-                    <h2 class="text-3xl md:text-4xl font-bold text-dark-950 mb-4">The EloAbroad Advantage vs. <span class="text-primary-600">Traditional Agencies</span></h2>
-                    <p class="text-gray-600 max-w-2xl mx-auto">We've redefined international hiring to deliver premium results without the premium price tag.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-dark-950 mb-4">EloAbroad vs <span class="text-primary-600">Traditional Agencies</span></h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">We're revolutionizing how people access global opportunities with our transparent, results-driven approach.</p>
                 </div>
                 
-                <div class="max-w-4xl mx-auto" data-aos="fade-up">
+                <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up">
                     <div class="overflow-x-auto">
                         <table class="w-full">
                             <thead>
-                                <tr class="border-b-2 border-primary-600">
-                                    <th class="text-left pb-4 font-bold text-dark-950"></th>
-                                    <th class="text-center pb-4 font-bold text-primary-600 text-lg">EloAbroad</th>
-                                    <th class="text-center pb-4 font-bold text-gray-600 text-lg">Traditional Agencies</th>
+                                <tr class="bg-primary-600 text-white">
+                                    <th class="text-left py-4 px-6 font-bold"></th>
+                                    <th class="text-center py-4 px-6 font-bold">EloAbroad</th>
+                                    <th class="text-center py-4 px-6 font-bold">Traditional Agencies</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Total Cost</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">$3,000–$4,000</td>
-                                    <td class="py-4 text-center text-gray-600">$8,000–$15,000+</td>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr>
+                                    <td class="py-4 px-6 font-medium">Placement Success Rate</td>
+                                    <td class="py-4 px-6 text-center text-primary-600 font-bold">94%</td>
+                                    <td class="py-4 px-6 text-center text-gray-600">35-60%</td>
                                 </tr>
-                                <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Payment Structure</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">Pay as you progress</td>
-                                    <td class="py-4 text-center text-gray-600">Large upfront fees</td>
-                                </tr>
-                                <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Placement Rate</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">94% success rate</td>
-                                    <td class="py-4 text-center text-gray-600">60-75% average</td>
-                                </tr>
-                                <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Support</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">Dedicated advisor</td>
-                                    <td class="py-4 text-center text-gray-600">Generic support</td>
-                                </tr>
-                                <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Training</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">Included in Stage 2</td>
-                                    <td class="py-4 text-center text-gray-600">Extra $1,000+</td>
+                                <tr class="bg-gray-50">
+                                    <td class="py-4 px-6 font-medium">Upfront Costs</td>
+                                    <td class="py-4 px-6 text-center text-primary-600 font-bold">$100 to start</td>
+                                    <td class="py-4 px-6 text-center text-gray-600">$3,000-$10,000+</td>
                                 </tr>
                                 <tr>
-                                    <td class="py-4 font-medium">Time to Placement</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">6-12 weeks avg.</td>
-                                    <td class="py-4 text-center text-gray-600">4-12 months</td>
+                                    <td class="py-4 px-6 font-medium">Guaranteed Placement</td>
+                                    <td class="py-4 px-6 text-center text-primary-600 font-bold"><i class="fas fa-check-circle"></i></td>
+                                    <td class="py-4 px-6 text-center text-gray-600"><i class="fas fa-times-circle"></i></td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-4 px-6 font-medium">Visa Sponsorship</td>
+                                    <td class="py-4 px-6 text-center text-primary-600 font-bold"><i class="fas fa-check-circle"></i></td>
+                                    <td class="py-4 px-6 text-center text-gray-600">Sometimes</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-4 px-6 font-medium">Relocation Support</td>
+                                    <td class="py-4 px-6 text-center text-primary-600 font-bold"><i class="fas fa-check-circle"></i></td>
+                                    <td class="py-4 px-6 text-center text-gray-600">Rarely</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-4 px-6 font-medium">Average Processing Time</td>
+                                    <td class="py-4 px-6 text-center text-primary-600 font-bold">6-8 weeks</td>
+                                    <td class="py-4 px-6 text-center text-gray-600">3-12 months</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    
-                    <div class="mt-12 bg-white p-8 rounded-xl shadow-lg border border-primary-100" data-aos="fade-up">
-                        <div class="flex flex-col md:flex-row items-center">
-                            <div class="md:w-2/3 mb-4 md:mb-0">
-                                <h3 class="text-xl font-bold text-dark-950 mb-2">Ready for Your Global Career?</h3>
-                                <p class="text-gray-600">Begin Stage 1 today and start your journey with a dedicated advisor.</p>
-                            </div>
-                            <div class="md:w-1/3 text-center md:text-right">
-                                <a href="#apply" class="btn-primary inline-block">
-                                    Apply Now <i class="fas fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Application Section -->
-        <section id="apply" class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="max-w-4xl mx-auto bg-gradient-to-br from-primary-50 to-primary-100 p-8 md:p-12 rounded-2xl shadow-lg border border-primary-200">
-                    <div class="flex flex-col md:flex-row items-center">
-                        <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8" data-aos="fade-right">
-                            <h2 class="text-3xl font-bold text-dark-950 mb-4">Begin Your Application</h2>
-                            <p class="text-gray-600 mb-6">Start Stage 1 today with a $100 application fee. This includes:</p>
-                            <ul class="space-y-3 mb-6">
-                                <li class="flex items-center">
-                                    <i class="fas fa-check-circle text-primary-600 mr-3"></i>
-                                    <span>Comprehensive eligibility assessment</span>
-                                </li>
-                                <li class="flex items-center">
-                                    <i class="fas fa-check-circle text-primary-600 mr-3"></i>
-                                    <span>Dedicated career advisor</span>
-                                </li>
-                                <li class="flex items-center">
-                                    <i class="fas fa-check-circle text-primary-600 mr-3"></i>
-                                    <span>Personalized career matching</span>
-                                </li>
-                                <li class="flex items-center">
-                                    <i class="fas fa-check-circle text-primary-600 mr-3"></i>
-                                    <span>Full program roadmap</span>
-                                </li>
-                            </ul>
-                            <div class="flex items-center">
-                                <i class="fas fa-lock text-primary-600 mr-2"></i>
-                                <span class="text-sm text-gray-600">Secure payment processed via Stripe</span>
-                            </div>
-                        </div>
-                        
-                        <div class="md:w-1/2" data-aos="fade-left">
-                            <div class="bg-white p-6 rounded-xl shadow-md">
-                                <h3 class="text-xl font-bold mb-4 text-center">Stage 1 Application</h3>
-                                <p class="text-center text-gray-600 mb-6">$100 one-time fee</p>
-                                
-                                <form class="space-y-4">
-                                    <div>
-                                        <label class="block text-gray-700 mb-1">Full Name</label>
-                                        <input type="text" class="email-form-input" required>
-                                    </div>
-                                    <div>
-                                        <label class="block text-gray-700 mb-1">Email</label>
-                                        <input type="email" class="email-form-input" required>
-                                    </div>
-                                    <div>
-                                        <label class="block text-gray-700 mb-1">Phone Number</label>
-                                        <input type="tel" class="email-form-input" required>
-                                    </div>
-                                    <div>
-                                        <label class="block text-gray-700 mb-1">Country of Residence</label>
-                                        <select class="email-form-input" required>
-                                            <option value="">Select your country</option>
-                                            <option value="US">United States</option>
-                                            <option value="UK">United Kingdom</option>
-                                            <!-- More countries -->
-                                        </select>
-                                    </div>
-                                    <button type="submit" class="email-form-submit">
-                                        Pay $100 & Begin Application
-                                    </button>
-                                </form>
-                                
-                                <div class="mt-4 flex items-center text-sm text-gray-500">
-                                    <i class="fas fa-shield-alt mr-2 text-primary-600"></i>
-                                    <span>Your information is secure and will never be shared</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
+                <div class="mt-12 text-center" data-aos="fade-up">
+                    <a href="#application-form" class="btn-primary inline-block">
+                        Begin Your Journey <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
                 </div>
             </div>
         </section>
@@ -1077,100 +1008,229 @@
         <section id="faq" class="py-20 bg-gray-50">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16" data-aos="fade-up">
-                    <span class="inline-block px-4 py-1 bg-primary-100 text-primary-600 rounded-full font-medium mb-3">FAQ</span>
-                    <h2 class="text-3xl md:text-4xl font-bold text-dark-950 mb-4">Your Questions, <span class="text-primary-600">Answered</span></h2>
-                    <p class="text-gray-600 max-w-2xl mx-auto">Everything you need to know about starting your international career with EloAbroad.</p>
+                    <span class="inline-block px-4 py-1 bg-primary-100 text-primary-600 rounded-full font-medium mb-3">Support</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-dark-950 mb-4">Frequently Asked <span class="text-primary-600">Questions</span></h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Everything you need to know about our visa-sponsored programs and process.</p>
                 </div>
                 
-                <div class="max-w-3xl mx-auto">
+                <div class="max-w-3xl mx-auto space-y-4">
                     <!-- FAQ Item 1 -->
-                    <div class="faq-item mb-4" data-aos="fade-up" data-aos-delay="100">
-                        <button class="faq-question w-full flex justify-between items-center text-left font-bold text-dark-950">
-                            <span>What makes EloAbroad different from other services?</span>
-                            <i class="fas fa-chevron-down text-primary-600 transition-transform duration-300"></i>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg">
+                            <span>What makes EloAbroad different from other agencies?</span>
+                            <i class="fas fa-chevron-down transition-transform duration-300"></i>
                         </button>
-                        <div class="faq-answer mt-2 text-gray-600 overflow-hidden max-h-0 transition-all duration-300">
-                            <p class="pb-4">
-                                EloAbroad combines the premium service of high-end agencies with transparent, stage-based pricing. You get a dedicated advisor, guaranteed placement, and only pay for each stage as you progress. Our 94% success rate is unmatched in the industry.
-                            </p>
+                        <div class="faq-answer mt-3 text-gray-600 hidden">
+                            <p>EloAbroad offers a premium, high-touch service with several key advantages:</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li>Guaranteed placement with vetted employers</li>
+                                <li>Stage-based pricing with no large upfront costs</li>
+                                <li>End-to-end support including visa processing and relocation</li>
+                                <li>Free certifications and training where required</li>
+                                <li>Dedicated career advisor throughout your journey</li>
+                            </ul>
                         </div>
                     </div>
                     
                     <!-- FAQ Item 2 -->
-                    <div class="faq-item mb-4" data-aos="fade-up" data-aos-delay="150">
-                        <button class="faq-question w-full flex justify-between items-center text-left font-bold text-dark-950">
-                            <span>Is the $100 Stage 1 fee refundable?</span>
-                            <i class="fas fa-chevron-down text-primary-600 transition-transform duration-300"></i>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                        <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg">
+                            <span>Do I need experience or certifications to apply?</span>
+                            <i class="fas fa-chevron-down transition-transform duration-300"></i>
                         </button>
-                        <div class="faq-answer mt-2 text-gray-600 overflow-hidden max-h-0 transition-all duration-300">
-                            <p class="pb-4">
-                                The Stage 1 fee covers our comprehensive assessment and matching services. If we determine you're not eligible for any of our programs during Stage 1, we'll refund your payment in full. Otherwise, this fee is applied toward your total program cost.
-                            </p>
+                        <div class="faq-answer mt-3 text-gray-600 hidden">
+                            <p>Requirements vary by program:</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li><strong>English Teaching:</strong> No prior experience needed (we provide free TEFL certification)</li>
+                                <li><strong>Caregiving:</strong> No experience required (free training provided)</li>
+                                <li><strong>Hospitality:</strong> Prior experience preferred but not mandatory</li>
+                            </ul>
+                            <p class="mt-2">We assess each candidate individually and provide any necessary training to ensure your success.</p>
                         </div>
                     </div>
                     
                     <!-- FAQ Item 3 -->
-                    <div class="faq-item mb-4" data-aos="fade-up" data-aos-delay="200">
-                        <button class="faq-question w-full flex justify-between items-center text-left font-bold text-dark-950">
-                            <span>What if I don't get placed after completing all stages?</span>
-                            <i class="fas fa-chevron-down text-primary-600 transition-transform duration-300"></i>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg">
+                            <span>How does the visa sponsorship process work?</span>
+                            <i class="fas fa-chevron-down transition-transform duration-300"></i>
                         </button>
-                        <div class="faq-answer mt-2 text-gray-600 overflow-hidden max-h-0 transition-all duration-300">
-                            <p class="pb-4">
-                                Our placement guarantee means if you complete all requirements but don't receive a suitable job offer within 90 days of finishing Stage 3, we'll refund your Stage 2 and 3 fees. This guarantee is outlined in our service agreement.
-                            </p>
+                        <div class="faq-answer mt-3 text-gray-600 hidden">
+                            <p>Our visa sponsorship process is comprehensive:</p>
+                            <ol class="list-decimal pl-5 mt-2 space-y-1">
+                                <li>After job placement, your employer files the necessary visa petition</li>
+                                <li>We prepare all your documentation and guide you through each step</li>
+                                <li>Our legal partners handle complex paperwork and requirements</li>
+                                <li>We provide interview preparation for embassy/consulate appointments</li>
+                                <li>Continued support until your visa is approved and you've relocated</li>
+                            </ol>
+                            <p class="mt-2">Processing times vary by country but average 6-8 weeks for most programs.</p>
                         </div>
                     </div>
                     
                     <!-- FAQ Item 4 -->
-                    <div class="faq-item mb-4" data-aos="fade-up" data-aos-delay="250">
-                        <button class="faq-question w-full flex justify-between items-center text-left font-bold text-dark-950">
-                            <span>Can I pay in installments?</span>
-                            <i class="fas fa-chevron-down text-primary-600 transition-transform duration-300"></i>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+                        <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg">
+                            <span>What countries do you currently place candidates in?</span>
+                            <i class="fas fa-chevron-down transition-transform duration-300"></i>
                         </button>
-                        <div class="faq-answer mt-2 text-gray-600 overflow-hidden max-h-0 transition-all duration-300">
-                            <p class="pb-4">
-                                Yes! We offer flexible payment plans for each stage. After your Stage 1 payment, you can split subsequent stage fees into 2-3 monthly installments. Contact your advisor to discuss options that work for your budget.
-                            </p>
+                        <div class="faq-answer mt-3 text-gray-600 hidden">
+                            <p>We currently have active programs in:</p>
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-2">
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/us.svg');"></span>
+                                    <span>United States</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/ca.svg');"></span>
+                                    <span>Canada</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/au.svg');"></span>
+                                    <span>Australia</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/nz.svg');"></span>
+                                    <span>New Zealand</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/gb.svg');"></span>
+                                    <span>United Kingdom</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="country-flag" style="background-image: url('https://flagcdn.com/de.svg');"></span>
+                                    <span>Germany</span>
+                                </div>
+                            </div>
+                            <p class="mt-2">We're constantly adding new destinations based on employer demand.</p>
                         </div>
                     </div>
                     
                     <!-- FAQ Item 5 -->
-                    <div class="faq-item mb-4" data-aos="fade-up" data-aos-delay="300">
-                        <button class="faq-question w-full flex justify-between items-center text-left font-bold text-dark-950">
-                            <span>How do you help with visas and work permits?</span>
-                            <i class="fas fa-chevron-down text-primary-600 transition-transform duration-300"></i>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg">
+                            <span>What happens if I don't get placed through your service?</span>
+                            <i class="fas fa-chevron-down transition-transform duration-300"></i>
                         </button>
-                        <div class="faq-answer mt-2 text-gray-600 overflow-hidden max-h-0 transition-all duration-300">
-                            <p class="pb-4">
-                                Our visa specialists handle the entire process during Stage 3. Your employer provides sponsorship, we prepare all documents, schedule embassy appointments, and guide you through interviews. Typical processing takes 4-8 weeks depending on the country.
-                            </p>
+                        <div class="faq-answer mt-3 text-gray-600 hidden">
+                            <p>Our placement guarantee means:</p>
+                            <ul class="list-disc pl-5 mt-2 space-y-1">
+                                <li>If we don't secure you a job offer within 90 days of completing Stage 2, you'll receive a full refund of all fees paid</li>
+                                <li>This guarantee applies to all candidates who complete our certification/training programs</li>
+                                <li>In our 5 years of operation, we've only had to issue 6 refunds (94% success rate)</li>
+                            </ul>
+                            <p class="mt-2">We're confident in our ability to place qualified candidates and stand behind our service.</p>
                         </div>
                     </div>
                 </div>
                 
                 <div class="mt-12 text-center" data-aos="fade-up">
-                    <p class="text-gray-600 mb-6">Still have questions? We're happy to help!</p>
-                    <a href="mailto:support@eloabroad.com" class="btn-primary inline-flex items-center">
-                        <i class="fas fa-envelope mr-2"></i> Contact Support
+                    <p class="text-gray-600 mb-4">Still have questions? We're happy to help!</p>
+                    <a href="mailto:info@eloabroad.com" class="btn-primary inline-block">
+                        <i class="fas fa-envelope mr-2"></i> Contact Us
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="py-16 bg-primary-900 text-white">
+        <!-- Application Form Section -->
+        <section id="application-form" class="py-20 bg-primary-900 text-white">
             <div class="container mx-auto px-6">
-                <div class="max-w-4xl mx-auto text-center" data-aos="zoom-in">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Your Global Career <span class="text-secondary-400">Starts Today</span></h2>
-                    <p class="text-xl text-gray-300 mb-8">Begin Stage 1 and take the first step toward your new life abroad with confidence.</p>
+                <div class="max-w-4xl mx-auto">
+                    <div class="text-center mb-12" data-aos="fade-up">
+                        <span class="inline-block px-4 py-1 bg-white/20 backdrop-blur-sm rounded-full font-medium mb-3">Get Started</span>
+                        <h2 class="text-3xl md:text-4xl font-bold mb-4">Begin Your <span class="text-secondary-400">Global Career Journey</span></h2>
+                        <p class="text-gray-300 max-w-2xl mx-auto">Complete this form to start your application. A dedicated advisor will contact you within 24 hours.</p>
+                    </div>
                     
+                    <form class="bg-white rounded-2xl shadow-xl p-6 md:p-8 text-gray-800" data-aos="fade-up" data-aos-delay="100">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="first-name" class="block text-sm font-medium mb-1">First Name *</label>
+                                <input type="text" id="first-name" class="email-form-input" required>
+                            </div>
+                            <div>
+                                <label for="last-name" class="block text-sm font-medium mb-1">Last Name *</label>
+                                <input type="text" id="last-name" class="email-form-input" required>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="email" class="block text-sm font-medium mb-1">Email *</label>
+                                <input type="email" id="email" class="email-form-input" required>
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium mb-1">Phone Number *</label>
+                                <input type="tel" id="phone" class="email-form-input" required>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="country" class="block text-sm font-medium mb-1">Which country are you interested in? *</label>
+                            <select id="country" class="email-form-input" required>
+                                <option value="">Select a country</option>
+                                <option value="us">United States</option>
+                                <option value="ca">Canada</option>
+                                <option value="au">Australia</option>
+                                <option value="nz">New Zealand</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="de">Germany</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="program" class="block text-sm font-medium mb-1">Which program interests you? *</label>
+                            <select id="program" class="email-form-input" required>
+                                <option value="">Select a program</option>
+                                <option value="teaching">English Teaching</option>
+                                <option value="caregiving">Caregiving</option>
+                                <option value="hospitality">Hospitality</option>
+                                <option value="other">Other (please specify below)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-sm font-medium mb-1">Tell us about your background and goals *</label>
+                            <textarea id="message" rows="4" class="email-form-input" required></textarea>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <div class="flex items-start">
+                                <div class="flex items-center h-5">
+                                    <input id="terms" type="checkbox" class="focus:ring-primary-500 h-4 w-4 text-primary-600 border-gray-300 rounded" required>
+                                </div>
+                                <label for="terms" class="ml-3 block text-sm text-gray-700">
+                                    I agree to EloAbroad's <a href="#" class="text-primary-600 hover:underline">Terms of Service</a> and <a href="#" class="text-primary-600 hover:underline">Privacy Policy</a> *
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="email-form-submit">
+                            Submit Application <i class="fas fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                    
+                    <div class="mt-8 text-center text-gray-300" data-aos="fade-up">
+                        <p>By submitting this form, you agree to be contacted by our team via email, phone, or WhatsApp regarding your application.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-primary-700 to-primary-900 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-3xl mx-auto" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your <span class="text-secondary-400">Career and Life</span>?</h2>
+                    <p class="text-xl text-gray-300 mb-8">Take the first step toward your global future today. Our team is standing by to guide you through every step of the process.</p>
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <a href="#apply" class="btn-primary">
+                        <a href="#application-form" class="btn-primary">
                             Begin Application <i class="fas fa-arrow-right ml-2"></i>
                         </a>
-                        <a href="#how-it-works" class="btn-secondary">
-                            <i class="fas fa-info-circle mr-2"></i> Learn More
+                        <a href="https://wa.me/84896781713" target="_blank" class="btn-secondary">
+                            <i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp
                         </a>
                     </div>
                 </div>
@@ -1179,17 +1239,16 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-dark-950 text-gray-300 pt-16 pb-8">
+    <footer class="bg-dark-950 text-white pt-16 pb-8">
         <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-                <!-- Company Info -->
-                <div class="md:col-span-2">
-                    <a href="#" class="text-2xl font-bold text-white flex items-center mb-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1 -->
+                <div>
+                    <a href="#" class="text-2xl font-bold flex items-center mb-4">
                         <span class="text-primary-400">Elo</span>Abroad <span class="ml-2">🌍</span>
                     </a>
-                    <p class="mb-4">
-                        Your premium pathway to global careers. Since 2020, we've transformed lives through ethical international recruitment.
-                    </p>
+                    <p class="text
+                    <p class="text-gray-400 mb-4">Your trusted partner for visa-sponsored career opportunities abroad. We connect global talent with life-changing opportunities.</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-gray-400 hover:text-white transition">
                             <i class="fab fa-facebook-f"></i>
@@ -1203,184 +1262,115 @@
                         <a href="#" class="text-gray-400 hover:text-white transition">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition">
-                            <i class="fab fa-youtube"></i>
-                        </a>
                     </div>
                 </div>
                 
-                <!-- Quick Links -->
+                <!-- Column 2 -->
                 <div>
-                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <h3 class="text-lg font-bold mb-4">Programs</h3>
                     <ul class="space-y-2">
-                        <li><a href="#how-it-works" class="hover:text-white transition">Our Process</a></li>
-                        <li><a href="#jobs" class="hover:text-white transition">Career Pathways</a></li>
-                        <li><a href="#pricing" class="hover:text-white transition">Pricing</a></li>
-                        <li><a href="#success-stories" class="hover:text-white transition">Success Stories</a></li>
-                        <li><a href="#faq" class="hover:text-white transition">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">English Teaching</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Caregiving</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Hospitality</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Healthcare</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Skilled Trades</a></li>
                     </ul>
                 </div>
                 
-                <!-- Contact -->
+                <!-- Column 3 -->
                 <div>
-                    <h4 class="text-white font-bold mb-4">Contact Us</h4>
+                    <h3 class="text-lg font-bold mb-4">Destinations</h3>
                     <ul class="space-y-2">
-                        <li class="flex items-center">
-                            <i class="fas fa-envelope mr-3 text-primary-400"></i>
-                            <a href="mailto:support@eloabroad.com" class="hover:text-white transition">support@eloabroad.com</a>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-phone-alt mr-3 text-primary-400"></i>
-                            <a href="tel:+1234567890" class="hover:text-white transition">+1 (234) 567-890</a>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-map-marker-alt mr-3 text-primary-400"></i>
-                            <span>Global - Serving Clients Worldwide</span>
-                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">United States</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Canada</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Australia</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">New Zealand</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Europe</a></li>
                     </ul>
                 </div>
                 
-                <!-- Newsletter -->
+                <!-- Column 4 -->
                 <div>
-                    <h4 class="text-white font-bold mb-4">Get Updates</h4>
-                    <p class="mb-4">Subscribe for new job openings and success tips.</p>
-                    <form class="flex">
-                        <input type="email" placeholder="Your email" class="footer-email-input">
-                        <button type="submit" class="ml-2 bg-primary-600 hover:bg-primary-700 text-white px-4 rounded-lg transition">
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+                    <h3 class="text-lg font-bold mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Success Stories</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Careers</a></li>
+                    </ul>
                 </div>
             </div>
             
-            <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-sm text-gray-500 mb-4 md:mb-0">© 2023 EloAbroad. All rights reserved.</p>
-                <div class="flex space-x-6">
-                    <a href="#" class="text-sm text-gray-500 hover:text-white transition">Privacy Policy</a>
-                    <a href="#" class="text-sm text-gray-500 hover:text-white transition">Terms of Service</a>
-                    <a href="#" class="text-sm text-gray-500 hover:text-white transition">Refund Policy</a>
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2023 EloAbroad. All rights reserved.</p>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition">Cookie Policy</a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- Back to Top Button -->
-    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-primary-600 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 opacity-0 invisible hover:bg-primary-700">
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-primary-600 text-white p-3 rounded-full shadow-lg hidden">
         <i class="fas fa-arrow-up"></i>
     </button>
 
     <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         // Initialize AOS animation
         AOS.init({
             duration: 800,
             easing: 'ease-in-out',
-            once: true,
-            offset: 100
+            once: true
         });
-        
-        // Preloader
-        window.addEventListener('load', function() {
-            const preloader = document.getElementById('preloader');
-            preloader.style.opacity = '0';
-            setTimeout(() => {
-                preloader.style.display = 'none';
-            }, 500);
+
+        // Back to top button
+        const backToTopButton = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
         });
-        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // FAQ accordion functionality
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const answer = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                // Toggle answer visibility
+                answer.classList.toggle('hidden');
+                
+                // Rotate icon
+                icon.classList.toggle('rotate-180');
+                
+                // Close other open FAQs
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    if (item !== faqItem) {
+                        item.querySelector('.faq-answer').classList.add('hidden');
+                        item.querySelector('i').classList.remove('rotate-180');
+                    }
+                });
+            });
+        });
+
         // Mobile menu toggle
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        
-        mobileMenuButton.addEventListener('click', function() {
-            const isOpen = mobileMenu.classList.contains('hidden');
-            if (isOpen) {
-                mobileMenu.classList.remove('hidden');
-                mobileMenu.classList.remove('max-h-0');
-                mobileMenu.classList.add('max-h-screen');
-            } else {
-                mobileMenu.classList.add('hidden');
-                mobileMenu.classList.add('max-h-0');
-                mobileMenu.classList.remove('max-h-screen');
-            }
-        });
-        
-        // Navbar scroll effect
-        const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 50) {
-                navbar.classList.add('shadow-md');
-                navbar.classList.add('bg-white');
-                navbar.classList.remove('bg-white/90');
-            } else {
-                navbar.classList.remove('shadow-md');
-                navbar.classList.remove('bg-white');
-                navbar.classList.add('bg-white/90');
-            }
-        });
-        
-        // Back to top button
-        const backToTopButton = document.getElementById('back-to-top');
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 300) {
-                backToTopButton.classList.remove('opacity-0');
-                backToTopButton.classList.remove('invisible');
-            } else {
-                backToTopButton.classList.add('opacity-0');
-                backToTopButton.classList.add('invisible');
-            }
-        });
-        
-        backToTopButton.addEventListener('click', function() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-        
-        // FAQ accordion
-        const faqQuestions = document.querySelectorAll('.faq-question');
-        faqQuestions.forEach(question => {
-            question.addEventListener('click', function() {
-                const answer = this.nextElementSibling;
-                const icon = this.querySelector('i');
-                
-                if (answer.style.maxHeight) {
-                    answer.style.maxHeight = null;
-                    icon.style.transform = 'rotate(0deg)';
-                } else {
-                    answer.style.maxHeight = answer.scrollHeight + 'px';
-                    icon.style.transform = 'rotate(180deg)';
-                }
-            });
-        });
-        
-        // Form submission handling
-        const forms = document.querySelectorAll('form');
-        forms.forEach(form => {
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                const formData = new FormData(this);
-                const submitButton = this.querySelector('button[type="submit"]');
-                const originalText = submitButton.innerHTML;
-                
-                // Show loading state
-                submitButton.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Processing...';
-                submitButton.disabled = true;
-                
-                // Simulate form submission (replace with actual AJAX call)
-                setTimeout(() => {
-                    submitButton.innerHTML = '<i class="fas fa-check mr-2"></i> Success!';
-                    setTimeout(() => {
-                        submitButton.innerHTML = originalText;
-                        submitButton.disabled = false;
-                        
-                        // Redirect to thank you page or show modal
-                        window.location.href = "thank-you.html";
-                    }, 1500);
-                }, 2000);
-            });
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
         });
     </script>
 </body>
