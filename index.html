@@ -291,7 +291,7 @@
         
     </style>
 </head>
-<body class="font-sans text-gray-800 bg-gray-50 antialiased">
+<body class="font-sans text-gray-800 bg-gray-50 antialiased overflow-x-hidden">
     <!-- WhatsApp Button - Floating at bottom right -->
     <a href="https://wa.me/84896781713" target="_blank" class="fixed bottom-6 right-6 w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center shadow-lg z-50 hover:bg-green-600 transition-all duration-300 animate-bounce">
         <i class="fab fa-whatsapp text-3xl"></i>
@@ -551,7 +551,7 @@
                                         <option value='UK'>🇬🇧 UK</option>
                                         <option value='Poland'>🇵🇱 Poland</option>
                                         <option value='Hungary'>🇭🇺 Hungary</option>
-                                        <option value='Canada'>🇨🇦 Canada</option>
+                                        <option value='Canada'>�🇦 Canada</option>
                                         <option value='Australia'>🇦🇺 Australia</option>
                                         <option value='New Zealand'>🇳🇿 New Zealand</option>
                                         <option value='Portugal'>🇵🇹 Portugal</option>
@@ -560,7 +560,7 @@
                                         <option value='Czech Republic'>🇨🇿 Czech Republic</option>
                                         <option value='Lithuania'>🇱🇹 Lithuania</option>
                                         <option value='Vietnam'>🇻🇳 Vietnam</option>
-                                        <option value='China'>�🇳 China</option>
+                                        <option value='China'>🇨🇳 China</option>
                                         <option value='Thailand'>🇹🇭 Thailand</option>
                                         <option value='Cambodia'>🇰🇭 Cambodia</option>
                                         <option value='South Korea'>🇰🇷 South Korea</option>
@@ -924,48 +924,75 @@
                 </div>
                 
                 <div class="max-w-4xl mx-auto" data-aos="fade-up">
-                    <div class="overflow-x-auto">
+                    <!-- Responsive Table Fix -->
+                    <!-- Hide on mobile, show on medium screens and up -->
+                    <div class="hidden md:block">
                         <table class="w-full">
                             <thead>
                                 <tr class="border-b-2 border-primary-600">
-                                    <th class="text-left pb-4 font-bold text-dark-950"></th>
-                                    <th class="text-center pb-4 font-bold text-primary-600 text-lg">EloAbroad</th>
-                                    <th class="text-center pb-4 font-bold text-gray-600 text-lg">Traditional Agencies</th>
+                                    <th class="text-left p-4 font-bold text-dark-950">Feature</th>
+                                    <th class="text-center p-4 font-bold text-primary-600 text-lg">EloAbroad</th>
+                                    <th class="text-center p-4 font-bold text-gray-600 text-lg">Traditional Agencies</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Upfront Cost</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">$100 to start</td>
-                                    <td class="py-4 text-center text-gray-600">$500-$5,000+</td>
+                                    <td class="p-4 font-medium">Upfront Cost</td>
+                                    <td class="p-4 text-center font-bold text-primary-600">$100 to start</td>
+                                    <td class="p-4 text-center text-gray-600">$500 - $5,000+</td>
                                 </tr>
                                 <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Placement Fee</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">$450 after hiring</td>
-                                    <td class="py-4 text-center text-gray-600">1-3 months salary</td>
+                                    <td class="p-4 font-medium">Placement Fee</td>
+                                    <td class="p-4 text-center font-bold text-primary-600">$450 after hiring</td>
+                                    <td class="p-4 text-center text-gray-600">1-3 months salary</td>
                                 </tr>
                                 <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Training</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">Free certification</td>
-                                    <td class="py-4 text-center text-gray-600">$200-$1,000 extra</td>
+                                    <td class="p-4 font-medium">Training</td>
+                                    <td class="p-4 text-center font-bold text-primary-600">Free certification</td>
+                                    <td class="p-4 text-center text-gray-600">$200 - $1,000 extra</td>
                                 </tr>
                                 <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Visa Support</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">Full sponsorship</td>
-                                    <td class="py-4 text-center text-gray-600">Sometimes included</td>
+                                    <td class="p-4 font-medium">Visa Support</td>
+                                    <td class="p-4 text-center font-bold text-primary-600">Full sponsorship</td>
+                                    <td class="p-4 text-center text-gray-600">Sometimes included</td>
                                 </tr>
-                                <tr class="border-b border-gray-200">
-                                    <td class="py-4 font-medium">Time to Placement</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">4-12 weeks</td>
-                                    <td class="py-4 text-center text-gray-600">3-12 months</td>
+                                 <tr class="border-b border-gray-200">
+                                    <td class="p-4 font-medium">Time to Placement</td>
+                                    <td class="p-4 text-center font-bold text-primary-600">4-12 weeks</td>
+                                    <td class="p-4 text-center text-gray-600">3-12 months</td>
                                 </tr>
                                 <tr>
-                                    <td class="py-4 font-medium">Total Average Cost</td>
-                                    <td class="py-4 text-center font-bold text-primary-600">$550</td>
-                                    <td class="py-4 text-center text-gray-600">$3,000-$15,000</td>
+                                    <td class="p-4 font-medium">Total Average Cost</td>
+                                    <td class="p-4 text-center font-bold text-primary-600">$550</td>
+                                    <td class="p-4 text-center text-gray-600">$3,000 - $15,000</td>
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                    <!-- Mobile Card View: Show on mobile, hide on medium and up -->
+                    <div class="md:hidden space-y-4">
+                        <div class="bg-primary-50 border border-primary-200 rounded-lg p-4">
+                            <h3 class="text-xl font-bold text-primary-700 text-center mb-4">EloAbroad</h3>
+                            <ul class="space-y-3">
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Upfront Cost:</span> <span class="font-bold text-dark-950">$100 to start</span></li>
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Placement Fee:</span> <span class="font-bold text-dark-950">$450 after hiring</span></li>
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Training:</span> <span class="font-bold text-dark-950">Free certification</span></li>
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Visa Support:</span> <span class="font-bold text-dark-950">Full sponsorship</span></li>
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Time to Placement:</span> <span class="font-bold text-dark-950">4-12 weeks</span></li>
+                                <li class="flex justify-between items-center border-t pt-3 mt-3"><span class="font-medium text-gray-600">Total Average Cost:</span> <span class="font-bold text-primary-600 text-lg">$550</span></li>
+                            </ul>
+                        </div>
+                         <div class="bg-gray-100 border border-gray-200 rounded-lg p-4">
+                            <h3 class="text-xl font-bold text-gray-700 text-center mb-4">Traditional Agencies</h3>
+                            <ul class="space-y-3">
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Upfront Cost:</span> <span class="font-bold text-dark-950">$500 - $5,000+</span></li>
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Placement Fee:</span> <span class="font-bold text-dark-950">1-3 months salary</span></li>
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Training:</span> <span class="font-bold text-dark-950">$200 - $1,000 extra</span></li>
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Visa Support:</span> <span class="font-bold text-dark-950">Sometimes</span></li>
+                                <li class="flex justify-between items-center"><span class="font-medium text-gray-600">Time to Placement:</span> <span class="font-bold text-dark-950">3-12 months</span></li>
+                                <li class="flex justify-between items-center border-t pt-3 mt-3"><span class="font-medium text-gray-600">Total Average Cost:</span> <span class="font-bold text-red-600 text-lg">$3,000+</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
